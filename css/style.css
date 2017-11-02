@@ -1,0 +1,210 @@
+body {
+  background: #f4f4f4;
+}
+
+/* Navbar */
+.navbar{
+  min-height: 33px !important;
+  margin-bottom:0;
+  border-radius:0;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.navbar-nav > li > a, .navbar-brand{
+  padding-top:6px !important;
+  padding-bottom:0 !important;
+  height: 33px;
+}
+
+.navbar-default {
+  background-color: #5cb85c;
+  border-color: #4c9900;
+}
+.navbar-default .navbar-brand {
+  color: #f9f9f9;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #f9f9f9;
+}
+.navbar-default .navbar-text {
+  color: #f9f9f9;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #f9f9f9;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #f9f9f9;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #f9f9f9;
+  background-color: #4c9900;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #f9f9f9;
+  background-color: #4c9900;
+}
+.navbar-default .navbar-toggle {
+  border-color: #4c9900;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #4c9900;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #f9f9f9
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #f9f9f9
+}
+.navbar-default .navbar-link {
+  color: #f9f9f9
+}
+.navbar-default .navbar-link:hover {
+  color: #f9f9f9
+}
+
+/* Header */
+#header {
+  background: #333;
+  color: #fff;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.create {
+  margin-top: 22px;
+  text-align: center;
+  color: #fff;
+  background:  #5cb85c; /*#e74c3c;*/
+  border-color: #4c9900; /*#c0392b; */
+}
+
+/* Breadcrumb Section */
+.breadcrumb {
+  background: #ccc;
+  color: #333;
+}
+
+.breadcrumb a {
+  color: #333;
+}
+
+a.main-color-bg, div.panel-heading.main-color-bg {
+  background-color:  #5cb85c; /*#e74c3c;*/
+  border-color: #4c9900; /*#c0392b; */
+  color: #fff !important;
+}
+
+a.main-color-bg:hover {
+  background-color:  #5cb85c; /*#e74c3c;*/
+  border-color: #4c9900; /*#c0392b; */
+  color: #fff;
+}
+
+.panel-title {
+  padding-left: 2.6%;
+}
+
+/* Progress Bars */
+
+.well {
+  background: #fff;
+  padding: 0;
+}
+
+.progress-bar-section {
+  padding: 4% 6%;
+}
+
+h5.style-progress-header {
+  text-decoration: none;
+  background-color:  #5cb85c; /*#e74c3c;*/
+  border-color: #4c9900; /*#c0392b; */
+  color: #fff !important;
+  margin-top: 0;
+  padding: 4.1% 5%;
+  font-size: 15px;
+}
+
+.filler-information {
+  text-align:center;
+  padding: 3% 5%;
+}
+
+/* Table */
+.panel.panel-default {
+  padding-bottom: 0.7%;
+}
+
+/* Pages */
+.dash-box {
+  text-align: center;
+}
+
+.modal-content {
+  padding: 10px;
+}
+
+/* Footer */
+.col-md-8 {
+  background: #fff;
+  padding: 4%;
+  border-radius: 8%;
+  border: 1px solid #ecf0f1;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.col-md-4 {
+  background: #fff;
+  padding: 4%;
+  border-radius: 8%;
+  border-color: #ecf0f1;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+button.btn.btn-success{
+    border-color: #4c9900;
+    padding: 3% 8%;
+     box-shadow: 0 5px 8px rgba(0,0,0,0.1), 0 5px 8px rgba(0,0,0,0.1);
+}
+
+/* Copyright Statement */
+.copyright-statement {
+  text-align: center;
+  padding: 2%;
+  margin-bottom: 1%;
+  background: #fff;
+  border: 1px solid #ecf0f1;
+}
+
+/* Modal Content */
+.modal-content {
+  padding: 5%;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffbbbc;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffbbbc;
+    background-color: #4c9900; /*#c0392b; */
+  }
+}
